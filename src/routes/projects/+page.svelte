@@ -38,8 +38,8 @@
 	@media (min-width: 778px) {
 		.main {
 			align-items: flex-start;
-            margin-left: 120px;
-			margin-right: 120px;
+			margin-left: 250px;
+			margin-right: 250px;
 			margin-bottom: 15em;
 		}
 	}
@@ -84,8 +84,14 @@
 		}
 	}
 	.project > a {
+		color: #fff;
+		text-decoration: none;
+		border-bottom: 3px solid #fff3;
 		font-size: 1.3em;
-		color: rgb(115, 255, 0);
 		font-weight: 700;
+	}
+
+	.project > a:hover {
+		border-bottom-color: #fff9;
 	}
 </style>
