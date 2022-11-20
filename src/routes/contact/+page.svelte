@@ -39,6 +39,7 @@
 
 <style>
 	a {
+		position: relative;
 		color: #fff;
 	}
 
@@ -80,6 +81,7 @@
 	}
 
 	.buttons {
+		position: relative;
 		display: flex;
 		flex-direction: row;
 		gap: 30px;

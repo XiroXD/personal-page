@@ -43,6 +43,9 @@
 				<a id="guilded-icon" href="https://www.guilded.gg/u/creaperhunter"
 					><i class="fa-brands fa-guilded" in:fly={{ delay: 5800, duration: 850, x: 100 }} /></a
 				>
+				<a href="https://steamcommunity.com/id/Creaperhunter/"
+					><i class="fa-brands fa-steam" in:fly={{ delay: 6000, duration: 850, x: 100 }} /></a
+				>
 			</div>
 		</div>
 		<div class="buttons">
@@ -67,6 +70,7 @@
 		justify-content: space-between;
 		align-items: center;
 		text-align: center;
+		overflow: hidden;
 	}
 	@media (min-width: 768px) {
 		.main {
@@ -79,14 +83,27 @@
 		}
 	}
 	.buttons {
+		position: relative;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		gap: 20px;
+		margin-top: 10px;
 	}
 
 	.socials {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
 		font-size: 2rem;
+		justify-content: center;
+	}
+
+	@media (min-width: 768px) {
+		.socials {
+			justify-content: flex-start;
+		}
 	}
 
 	#discord-icon {

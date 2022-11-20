@@ -45,9 +45,11 @@
 	}
 
 	.buttons {
+		position: relative;
 		display: flex;
 		flex-direction: row;
 		gap: 30px;
+		padding-top: 30px;
 	}
 
 	.projects {
@@ -73,7 +75,6 @@
 		margin-top: 10px;
 		margin-bottom: 15px;
 		padding-top: 10px;
-		padding-bottom: 10px;
 		padding-left: 5px;
 		padding-right: 5px;
 	}

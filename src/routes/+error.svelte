@@ -10,9 +10,9 @@
 </script>
 
 {#if ready}
-	<div in:fly={{ duration: 850, y: 80 }}>
-		<h1>{$page.status}</h1>
-		<h1>{$page.error.message}</h1>
+	<div>
+		<h1 in:fly={{ duration: 850, y: 100 }}>{$page.status}</h1>
+		<h1 in:fly={{ duration: 850, delay: 300, y: 80 }}>{$page.error.message}</h1>
 		{#if $page.status == 404}
 			<h3>
 				{#each 'OwO what are you searching for?' as char, i}
@@ -36,6 +36,9 @@
 {/if}
 
 <style>
+	.button {
+		position: relative;
+	}
 	div {
 		display: flex;
 		align-items: center;
