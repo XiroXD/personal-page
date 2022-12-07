@@ -51,7 +51,7 @@
 	<slot />
 </main>
 
-<footer>Made By Creaperhunter#7718</footer>
+<footer>Made By Creaperhunter#0001</footer>
 
 <style>
 	footer {
