@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Creaperhunter | Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Just my personal page" />
 </svelte:head>
 
 {#if ready}
