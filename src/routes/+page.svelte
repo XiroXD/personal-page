@@ -22,12 +22,12 @@
 			</h2>
 
 			<h3 in:fly={{ delay: 3500, duration: 850, y: 80 }}>Fullstack web developer</h3>
-			<h3 in:fly={{ delay: 3700, duration: 850, y: 80 }}>69420.host Co-Founder</h3>
-			<h3 in:fly={{ delay: 3900, duration: 850, y: 80 }}>
+			<h3 in:fly={{ delay: 3700, duration: 850, y: 80 }}>varity.pics Founder</h3>
+<!-- 			<h3 in:fly={{ delay: 3900, duration: 850, y: 80 }}>
 				And proud founder of {#each 'Nothing...' as char, i}
 					<span in:fade={{ delay: 4400 + i * 120, duration: 800 }}>{char}</span>
 				{/each}
-			</h3>
+			</h3> -->
 
 			<div class="socials">
 				<a href="https://github.com/Creaperhunter" in:fly={{ delay: 5400, duration: 850, x: 100 }}>
