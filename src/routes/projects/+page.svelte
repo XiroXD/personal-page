@@ -11,8 +11,8 @@
 		<h1 in:fly={{ duration: 850, y: 80 }}>Projects</h1>
 		<div class="projects" in:fly={{ duration: 850, y: 80, delay: 200 }}>
 			<div class="project">
-				<a href="https://69420.host">69420.host</a>
-				<p>Fast and secure file hosting provider.</p>
+				<a href="https://varity.pics">varity.pics</a>
+				<p>Fast and secure image sharing service.</p>
 			</div>
 		</div>
 		<div class="buttons" in:fly={{ duration: 850, y: 80, delay: 300 }}>

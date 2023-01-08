@@ -30,22 +30,26 @@
 			</h3>
 
 			<div class="socials">
-				<a href="https://github.com/Creaperhunter"
-					><i class="fa-brands fa-github" in:fly={{ delay: 5400, duration: 850, x: 100 }} /></a
+				<a href="https://github.com/Creaperhunter" in:fly={{ delay: 5400, duration: 850, x: 100 }}>
+					<i class="fa-brands fa-github" />
+				</a>
+				<a
+					href="https://discords.com/bio/p/creaperhunter"
+					in:fly={{ delay: 5600, duration: 850, x: 100 }}
+					><i id="discord-icon" class="fa-brands fa-discord" /></a
 				>
-				<a href="https://discords.com/bio/p/creaperhunter"
-					><i
-						id="discord-icon"
-						class="fa-brands fa-discord"
-						in:fly={{ delay: 5600, duration: 850, x: 100 }}
-					/></a
+				<a
+					id="guilded-icon"
+					href="https://www.guilded.gg/u/creaperhunter"
+					in:fly={{ delay: 5800, duration: 850, x: 100 }}
+					><i class="fa-brands fa-guilded" />
+				</a>
+				<a
+					href="https://steamcommunity.com/id/Creaperhunter/"
+					in:fly={{ delay: 6000, duration: 850, x: 100 }}
 				>
-				<a id="guilded-icon" href="https://www.guilded.gg/u/creaperhunter"
-					><i class="fa-brands fa-guilded" in:fly={{ delay: 5800, duration: 850, x: 100 }} /></a
-				>
-				<a href="https://steamcommunity.com/id/Creaperhunter/"
-					><i class="fa-brands fa-steam" in:fly={{ delay: 6000, duration: 850, x: 100 }} /></a
-				>
+					<i class="fa-brands fa-steam" />
+				</a>
 			</div>
 		</div>
 		<div class="buttons">

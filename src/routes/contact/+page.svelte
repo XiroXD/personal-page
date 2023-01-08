@@ -16,23 +16,23 @@
 		</h2>
 		<h3 in:fly={{ delay: 1200, duration: 850, y: 80 }}>Or the easier way...</h3>
 		<div class="contact">
-			<a href="https://discord.com/users/708370297094668388"
-				><i
+			<a href="https://discord.com/users/708370297094668388">
+				<i
 					id="discord-icon"
 					class="fa-brands fa-discord"
 					in:fly={{ delay: 1600, duration: 850, x: 100 }}
-				/></a
-			>
+				/>
+			</a>
 			<a id="guilded-icon" href="https://www.guilded.gg/u/creaperhunter"
 				><i class="fa-brands fa-guilded" in:fly={{ delay: 1800, duration: 850, x: 100 }} /></a
 			>
 		</div>
 		<div class="buttons" in:fly={{ duration: 850, y: 80, delay: 2000 }}>
-			<a class="button" href="/"
-				>{#each 'Return' as char, i}
+			<a class="button" href="/">
+				{#each 'Return' as char, i}
 					<span in:fade={{ delay: 2200 + i * 120, duration: 800 }}>{char}</span>
-				{/each}</a
-			>
+				{/each}
+			</a>
 		</div>
 	</div>
 {/if}
