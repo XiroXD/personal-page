@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Creaperhunter | Home</title>
+	<title>Xiro | Home</title>
 	<meta name="description" content="Just my personal page" />
 </svelte:head>
 
@@ -16,12 +16,12 @@
 		<div>
 			<h1 in:fly={{ duration: 850, y: 80 }}>Hi there 👋</h1>
 			<h2 in:fly={{ delay: 1000, duration: 850, y: 100 }}>
-				Im {#each 'Creaperhunter 👀' as char, i}
+				Im {#each 'Xiro 👀' as char, i}
 					<span in:fade={{ delay: 2000 + i * 120, duration: 800 }}>{char}</span>
 				{/each}
 			</h2>
 
-			<h3 in:fly={{ delay: 3500, duration: 850, y: 80 }}>Fullstack web developer</h3>
+			<h3 in:fly={{ delay: 3000, duration: 850, y: 80 }}>Fullstack web developer</h3>
 			<h3 in:fly={{ delay: 3700, duration: 850, y: 80 }}>varity.pics Founder</h3>
 <!-- 			<h3 in:fly={{ delay: 3900, duration: 850, y: 80 }}>
 				And proud founder of {#each 'Nothing...' as char, i}
