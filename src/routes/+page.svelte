@@ -30,7 +30,7 @@
 			</h3> -->
 
 			<div class="socials">
-				<a href="https://github.com/Creaperhunter" in:fly={{ delay: 5400, duration: 850, x: 100 }}>
+				<a href="https://github.com/XiroXD" in:fly={{ delay: 5400, duration: 850, x: 100 }}>
 					<i class="fa-brands fa-github" />
 				</a>
 				<a
@@ -45,7 +45,7 @@
 					><i class="fa-brands fa-guilded" />
 				</a>
 				<a
-					href="https://steamcommunity.com/id/Creaperhunter/"
+					href="https://steamcommunity.com/id/XiroDaFurry/"
 					in:fly={{ delay: 6000, duration: 850, x: 100 }}
 				>
 					<i class="fa-brands fa-steam" />
