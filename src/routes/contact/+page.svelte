@@ -10,8 +10,8 @@
 	<div class="main">
 		<h1 in:fly={{ duration: 850, y: 80 }}>Contact</h1>
 		<h2 in:fly={{ delay: 200, duration: 850, y: 80 }}>
-			You can contact me at <a class="link" href="mailto:creaperhunter@hrzn.cool"
-				>creaperhunter@hrzn.cool</a
+			You can contact me at <a class="link" href="mailto:xiro@hrzn.cool"
+				>xiro@hrzn.cool</a
 			>
 		</h2>
 		<h3 in:fly={{ delay: 1200, duration: 850, y: 80 }}>Or the easier way...</h3>
