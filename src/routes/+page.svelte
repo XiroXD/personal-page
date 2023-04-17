@@ -40,7 +40,7 @@
 				>
 				<a
 					id="guilded-icon"
-					href="https://www.guilded.gg/u/creaperhunter"
+					href="https://www.guilded.gg/u/XiroXD"
 					in:fly={{ delay: 5800, duration: 850, x: 100 }}
 					><i class="fa-brands fa-guilded" />
 				</a>
