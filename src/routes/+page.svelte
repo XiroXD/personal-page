@@ -34,7 +34,7 @@
 					<i class="fa-brands fa-github" />
 				</a>
 				<a
-					href="https://discords.com/bio/p/creaperhunter"
+					href="https://discords.com/bio/p/xiro"
 					in:fly={{ delay: 5600, duration: 850, x: 100 }}
 					><i id="discord-icon" class="fa-brands fa-discord" /></a
 				>
