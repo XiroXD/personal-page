@@ -1,12 +1,13 @@
 <script>
+	import '../tailwind.css';
 	import './styles.css';
 </script>
 
-<main>
+<main class="flex flex-col justify-center min-h-screen">
 	<slot />
 </main>
 
-<footer>Made By Xiro#0001</footer>
+<footer>Made With 💖 By Xiro#0001</footer>
 
 <style>
 	footer {
@@ -16,12 +17,5 @@
 		padding-bottom: 15px;
 		bottom: 0;
 		left: 0;
-	}
-
-	main {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		min-height: 100vh;
 	}
 </style>

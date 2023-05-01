@@ -1,98 +1,22 @@
 <script>
 	import { fade, fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
+	import Button from '../../components/Button.svelte';
+	import Project from '../../components/Project.svelte';
 
 	let ready = false;
 	onMount(() => (ready = true));
 </script>
 
 {#if ready}
-	<div class="main">
-		<h1 in:fly={{ duration: 850, y: 80 }}>Projects</h1>
-		<div class="projects" in:fly={{ duration: 850, y: 80, delay: 200 }}>
-			<div class="project">
-				<a href="https://varity.pics">varity.pics</a>
-				<p>Fast and secure image sharing service.</p>
-			</div>
-		</div>
-		<div class="buttons" in:fly={{ duration: 850, y: 80, delay: 300 }}>
-			<a class="button" href="/"
-				>{#each 'Return' as char, i}
-					<span in:fade={{ delay: 150 + i * 120, duration: 800 }}>{char}</span>
-				{/each}</a
-			>
-		</div>
+<div class="flex flex-col xl:items-start items-center xl:px-40 px-3 md:pb-20 pb-4">
+	<h1 in:fly={{ duration: 850, y: 80 }}>Projects</h1>
+	<div class="flex gap-5 flex-wrap" in:fly={{ duration: 850, y: 80, delay: 200 }}>
+		<Project title="sharify.in" link="https://sharify.in" description="Fast and secure file sharing service"/>
+		<Project title="varity.pics" link="https://varity.pics" description="Fully private file sharing service"/>
 	</div>
+	<div class="relative mt-5" in:fly={{ duration: 850, y: 80, delay: 300 }}>
+		<Button text="Return" link="/" delay={150}/>
+	</div>
+</div>
 {/if}
-
-<style>
-	.main {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin-left: 10px;
-		margin-right: 10px;
-		margin-bottom: 15px;
-	}
-
-	@media (min-width: 778px) {
-		.main {
-			align-items: flex-start;
-			margin-left: 250px;
-			margin-right: 250px;
-			margin-bottom: 15em;
-		}
-	}
-
-	.buttons {
-		position: relative;
-		display: flex;
-		flex-direction: row;
-		gap: 30px;
-		padding-top: 30px;
-	}
-
-	.projects {
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-	}
-
-	@media (min-width: 768px) {
-		.projects {
-			display: flex;
-			flex-direction: row;
-		}
-	}
-
-	.project {
-		display: block;
-		backdrop-filter: blur(8px);
-		border: solid;
-		border-radius: 15px;
-		border-width: 2px;
-		width: 150px;
-		margin-top: 10px;
-		margin-bottom: 15px;
-		padding-top: 10px;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
-
-	@media (min-width: 768px) {
-		.project {
-			width: 350px;
-		}
-	}
-	.project > a {
-		color: #fff;
-		text-decoration: none;
-		border-bottom: 3px solid #fff3;
-		font-size: 1.3em;
-		font-weight: 700;
-	}
-
-	.project > a:hover {
-		border-bottom-color: #fff9;
-	}
-</style>

@@ -6,14 +6,14 @@
 		<meta name="viewport" content="width=device-width" />
 		<link
 			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
 		%sveltekit.head%
 	</head>
-	<body data-sveltekit-prefetch>
+	<body data-sveltekit-preload-data="hover">
 		<div id="particles-js"></div>
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
@@ -23,5 +23,9 @@
 		crossorigin="anonymous"
 		referrerpolicy="no-referrer"
 	></script>
-	<script src="/particlesHelper.js"></script>
+	<script>
+		particlesJS.load('particles-js', '/particles.json', function () {
+			console.log('callback - particles.js config loaded');
+		});
+	</script>
 </html>
