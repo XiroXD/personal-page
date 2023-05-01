@@ -34,7 +34,7 @@
             {/each}
         </h3> -->
 
-			<div class="flex gap-5 text-3xl xl:justify-start justify-center mt-5">
+			<div class="relative flex gap-5 text-3xl xl:justify-start justify-center mt-5">
 				<a href="https://github.com/XiroXD" in:fly={{ delay: 5400, duration: 850, x: 100 }}>
 					<i class="fa-brands fa-github" />
 				</a>
