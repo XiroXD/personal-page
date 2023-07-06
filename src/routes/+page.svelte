@@ -27,7 +27,7 @@
 			<h3 in:fly={{ delay: 3000, duration: 850, y: 80 }}>Software developer</h3>
 			<h3 in:fly={{ delay: 3700, duration: 850, y: 80 }}>Web designer</h3>
 			<h3 in:fly={{ delay: 4300, duration: 850, y: 80 }}>sharify.in Founder</h3>
-			<h3 in:fly={{ delay: 4700, duration: 850, y: 80 }}>Niko is cute btw :3</h3>
+			<h3 in:fly={{ delay: 4700, duration: 850, y: 80 }}>And professional depressed dumbass ^^</h3>
 			<!-- 			<h3 in:fly={{ delay: 3900, duration: 850, y: 80 }}>
             And proud founder of {#each 'Nothing...' as char, i}
                 <span in:fade={{ delay: 4400 + i * 120, duration: 800 }}>{char}</span>
