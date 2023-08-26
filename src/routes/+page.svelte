@@ -19,7 +19,7 @@
 		<div>
 			<h1 in:fly={{ duration: 850, y: 80 }}>Hi there 👋</h1>
 			<h2 in:fly={{ delay: 1000, duration: 850, y: 100 }}>
-				Im {#each 'Xiro 👀' as char, i}
+				Im {#each 'owofied (aka xiro) 👀' as char, i}
 					<span in:fade={{ delay: 2000 + i * 120, duration: 800 }}>{char}</span>
 				{/each}
 			</h2>
