@@ -13,7 +13,7 @@
 	<h1 in:fly={{ duration: 850, y: 80 }}>Projects</h1>
 	<div class="flex gap-5 flex-wrap" in:fly={{ duration: 850, y: 80, delay: 200 }}>
 		<Project title="sharify.in" link="https://sharify.in" description="Fast and secure file sharing service"/>
-		<Project title="varity.pics" link="https://varity.pics" description="Fully private file sharing service"/>
+		<!--- <Project title="varity.pics" link="https://varity.pics" description="Fully private file sharing service"/> --->
 	</div>
 	<div class="relative mt-5" in:fly={{ duration: 850, y: 80, delay: 300 }}>
 		<Button text="Return" link="/" delay={150}/>
