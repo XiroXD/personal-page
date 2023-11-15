@@ -48,12 +48,13 @@
 				>
 					<i class="fa-brands fa-guilded text-[#f5c400]" />
 				</a>
-				<a
+				<!-- <a
 					href="https://steamcommunity.com/id/XiroDaFurry/"
 					in:fly={{ delay: 6000, duration: 850, x: 100 }}
 				>
 					<i class="fa-brands fa-steam" />
 				</a>
+				-->
 			</div>
 		</div>
 		<div class="relative flex md:flex-row flex-col justify-center gap-5 md:mt-0 mt-5">
