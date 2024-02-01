@@ -26,7 +26,7 @@
 
 			<h3 in:fly={{ delay: 3000, duration: 850, y: 80 }}>Self-Taught Software engineer</h3>
 			<h3 in:fly={{ delay: 3700, duration: 850, y: 80 }}>Web designer</h3>
-			<h3 in:fly={{ delay: 4300, duration: 850, y: 80 }}>sharify.in Founder</h3>
+			<!-- <h3 in:fly={{ delay: 4300, duration: 850, y: 80 }}>sharify.in Founder</h3> -->
 			<h3 in:fly={{ delay: 4700, duration: 850, y: 80 }}>aaand... idk...</h3>
 			<!-- 			<h3 in:fly={{ delay: 3900, duration: 850, y: 80 }}>
             And proud founder of {#each 'Nothing...' as char, i}
