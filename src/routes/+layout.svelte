@@ -7,7 +7,7 @@
 	<slot />
 </main>
 
-<footer>Made With 💖 By Xiro#0001</footer>
+<footer>Made With 💖 By owofied</footer>
 
 <style>
 	footer {
