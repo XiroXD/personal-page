@@ -35,7 +35,7 @@
         </h3> -->
 
 			<div class="relative flex gap-5 text-3xl xl:justify-start justify-center mt-5">
-				<a href="https://github.com/XiroXD" in:fly={{ delay: 5400, duration: 850, x: 100 }}>
+				<a href="https://github.com/owofied" in:fly={{ delay: 5400, duration: 850, x: 100 }}>
 					<i class="fa-brands fa-github" />
 				</a>
 				<a href="https://discords.com/bio/p/xiro" in:fly={{ delay: 5600, duration: 850, x: 100 }}>
