@@ -13,9 +13,9 @@
 		<h2 in:fly={{ delay: 200, duration: 850, y: 80 }}>
 			You can contact me at <a
 				class="border-[#fff3] hover:border-[#fff9] border-b-2"
-				href="mailto:xiro@hrzn.cool"
+				href="mailto:xiro@duck.com"
 			>
-				xiro@hrzn.cool
+				xiro@duck.com
 			</a>
 		</h2>
 		<h3 in:fly={{ delay: 1200, duration: 850, y: 80 }}>Or the easier way...</h3>
