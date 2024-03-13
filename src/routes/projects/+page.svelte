@@ -12,7 +12,7 @@
 <div class="flex flex-col xl:items-start items-center xl:px-40 px-3 md:pb-20 pb-4">
 	<h1 in:fly={{ duration: 850, y: 80 }}>Projects</h1>
 	<div class="flex gap-5 flex-wrap" in:fly={{ duration: 850, y: 80, delay: 200 }}>
-		<p>None... thank you AI <3 (f*ck you)</p>
+		<p>None... thank you AI...</p>
 		<!--- <Project title="VigilantTF" link="https://github.com/VigilantTF" description="Third-party anticheat solution for Team Fortress 2"/> --->
 		<!--- <Project title="varity.pics" link="https://varity.pics" description="Fully private file sharing service"/> --->
 	</div>
